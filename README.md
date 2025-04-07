@@ -17,9 +17,11 @@ This is a system service that automatically switches the power profile of a Linu
    cd power-profile-assistant
 
 2. **Build the executable:**
-
-g++ -o power_profile_assistant power_profile_assistant.cpp
+    
+    ```bash
+    g++ -o power_profile_assistant power_profile_assistant.cpp
 
 3. **Install the service:**
-
-./create_power_daemon_service.sh
+    
+    ```bash
+    ./create_power_daemon_service.sh
