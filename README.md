@@ -19,13 +19,13 @@ This is a system service that automatically switches the power profile of a Linu
 
 2. **Build the executable:**
     
-    Compile the source code using g++:
+    Compile the source code using g++
     
     ```bash
     g++ -o power_profile_assistant power_profile_assistant.cpp
 
-    Move the executable to /usr/local/bin (you might need root privileges):
-    
+    Move the executable to /usr/local/bin (you might need root privileges)
+
     ```bash
     sudo mv power_profile_assistant /usr/local/bin/
 
@@ -38,8 +38,11 @@ The script will:
 Prompt you to enter the idle timeout (in seconds).
 
 Prompt you for the path(s) to the input devices you want to monitor.
+
 You can see list of devices:
-    ```sudo libinput list-devices
+
+    ```bash
+    sudo libinput list-devices
 
 Create a systemd service file at /etc/systemd/system/power-profile-assistant.service.
 
