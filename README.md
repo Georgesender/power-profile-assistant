@@ -32,7 +32,7 @@ This is a system service that automatically switches the power profile of a Linu
 3. **Install the service:**
     
     ```bash
-    make_power_profile_assist.sh
+    sudo ./make_power_profile_assist.sh
     
 The script will:
 
