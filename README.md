@@ -51,15 +51,15 @@ The script will:
 
 4. **Checking the Service Status**
 
-To check logs and service status, you can use:
+    To check logs and service status, you can use:
 
     ```bash
     sudo systemctl status power-profile-assistant
     sudo journalctl -u power-profile-assistant -f
 
-Uninstallation
+    **Uninstallation:**
 
-To disable and remove the service, run:
+    To disable and remove the service, run:
 
     ```bash
     sudo systemctl stop power-profile-assistant
@@ -67,7 +67,7 @@ To disable and remove the service, run:
     sudo rm /etc/systemd/system/power-profile-assistant.service
     sudo systemctl daemon-reload
 
-Customization
+    **Customization:**
 Idle Timeout: Adjust the idle timeout when running the install script.
 
 Input Devices: Specify one or more input device paths (e.g., /dev/input/event0 /dev/input/event1).
