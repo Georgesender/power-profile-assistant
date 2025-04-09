@@ -51,14 +51,14 @@ The script will:
 
 4. **Checking the Service Status**
 
-To check logs and service status, you can use:
+- To check logs and service status, you can use:
 
     ```bash
     sudo systemctl status power-profile-assistant
     sudo journalctl -u power-profile-assistant -f
 
 ## Uninstallation
-To disable and remove the service, run:
+- To disable and remove the service, run:
 
     ```bash
     sudo systemctl stop power-profile-assistant
