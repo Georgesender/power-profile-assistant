@@ -51,7 +51,7 @@ The script will:
 
 4. **Checking the Service Status**
 
-    To check logs and service status, you can use:
+To check logs and service status, you can use:
 
     ```bash
     sudo systemctl status power-profile-assistant
@@ -59,7 +59,7 @@ The script will:
 
 ## Uninstallation
 
-    To disable and remove the service, run:
+To disable and remove the service, run:
 
     ```bash
     sudo systemctl stop power-profile-assistant
@@ -69,10 +69,10 @@ The script will:
 
 ## Customization:
 
-Idle Timeout: Adjust the idle timeout when running the install script.
+- Idle Timeout: Adjust the idle timeout when running the install script.
 
-Input Devices: Specify one or more input device paths (e.g., /dev/input/event0 /dev/input/event1).
+- Input Devices: Specify one or more input device paths (e.g., /dev/input/event0 /dev/input/event1).
 
-Feel free to fork and modify the repository according to your needs.
+- Feel free to fork and modify the repository according to your needs.
 
-Happy power saving!
+- Happy power saving!
